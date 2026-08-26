@@ -1,4 +1,7 @@
 ACL高级功能
+
+![ACL判定示意图](images/ACL.jpg)
+
 使用菜单的Debug Security可以用来调试ACL，当你打开一条记录时，记录下面会输出每一条ACL的判定以及结果。
 
 打开调试之后使用impersonate User后依旧可以看到对应用户的调试结果。
