@@ -16,7 +16,7 @@ ServiceNow 可以通过字段的 `Configure Styles` 功能，根据记录中的�
 
 打开目标表（Table）的表单（Form）。可以打开已有记录（Record），也可以新建记录。找到需要修改样式的字段（Field），右键单击字段标签，然后选择 `Configure Styles`。
 
-![字段右键菜单中的 Configure Styles 选项](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/004_01.png)
+图片地址：[https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/004_01.png](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/004_01.png)
 
 图片说明：在表单中右键单击目标字段的标签，从上下文菜单中选择 `Configure Styles`，进入该字段对应的样式配置列表。
 
@@ -24,7 +24,7 @@ ServiceNow 可以通过字段的 `Configure Styles` 功能，根据记录中的�
 
 选择 `Configure Styles` 后，系统会打开 Styles 列表，并自动使用当前表和字段作为筛选条件。列表中会显示该字段已有的样式规则。
 
-![ServiceNow Styles 样式配置列表](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/004_02.png)
+图片地址：[https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/004_02.png](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/004_02.png)
 
 图片说明：Styles 列表按 `Table` 和 `Field name` 定位目标字段；`Value` 定义样式生效条件，`Style` 定义满足条件后应用的 CSS 样式，例如背景颜色或背景图标。
 
