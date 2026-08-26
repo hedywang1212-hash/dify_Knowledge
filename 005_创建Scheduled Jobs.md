@@ -5,6 +5,7 @@
 **①点击菜单中的System Definition>Scheduled Jobs**（**注意：**不要使用System Scheduler中的Scheduled Jobs来新建项目，一些现有的 scheduled jobs已经在Schedule Item [sys_trigger] 表中(System Scheduler > Scheduled Jobs)。
 
 **②点击"NEW",选择Scheduled Jobs的类型**
+[](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/005_01.png)
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/005_01.png)
 
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/005_01.png
