@@ -1,8 +1,9 @@
 Business Rule：在Business Rule中进行页面重定向：
 
-
+```javascript
 //action.setRedirectURL('https://www.google.com');
 //gs.setRedirect("https://www.google.com");
+```
 上面两种方法都可行，
 
 
@@ -15,9 +16,10 @@ Business Rule：在Business Rule中进行页面重定向：
 
 
 Script Include：在Script Include中进行页面重定向：
-
+```javascript
 //action.setRedirectURL("https://www.google.com");
 //gs.setRedirect("https://www.google.com");
+```
 上面两种方法都可行，
 
 
@@ -32,10 +34,11 @@ Script Include：在Script Include中进行页面重定向：
 
 
 Client Script：在Script Include中进行页面重定向：
-
+```javascript
 //top.window.location = ("https://www.google.com");
 //window.open = ("https://www.google.com");
 //g_navigation.openPopup("https://www.google.com");
+```
 以上方法都可行，
 
 
@@ -46,8 +49,10 @@ Client Script：在Script Include中进行页面重定向：
 
 
 UI Action：在UI Action中进行页面重定向：
+```javascript
 //action.setRedirectURL('https://www.google.com');
 //gs.setRedirect('https://www.google.com');
+```
 以上两种方法都可行，
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_01.png)
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_01.png
@@ -85,12 +90,10 @@ Widget：在Widget中进行页面重定向：
 
 ```javascript
 window.location = <url>;
-```
 window.open(<url>,'_blank');//在新的标签页或窗口中打开 URL。如果浏览器设置阻止弹出窗口，可能会在新的标签页中打开 URL。
 window.open(<url>,'_self');//在执行 JavaScript 代码的同一窗口或标签页中打开 URL。如果没有指定目标属性，这是默认行为。 
 window.open(<url>,'_parent');//在父窗口或包含框架的窗口中打开 URL。 
 window.open(<url>,'_top');//在顶层窗口中打开 URL，忽略嵌套的框架。
-```javascript
 top.window.location = <url>;
 ```
 //还有使用$location的方法，写在下方
@@ -114,12 +117,14 @@ top.window.location = <url>;
 $location方法
 例：假设当前URL为'http://localhost/$location/21.1%20$location.html#/foo?name=bunny#myhash'
 
-
+```javascript
 $location.url('/foo2?name=bunny2&age=12#myhash2');//修改URL的子路径（也就是当前url#后面的内容，包括参数）
+```
 例子的URL运行后跳转到的URL为'http://localhost/$location/21.1%20$location.html#/foo2?name=bunny2&age=12#myhash2'
 
-
+```javascript
 $location.path('/foo2/foo3');//修改URL的子路径部分（也就是当前url#后面的内容，不包括参数）
+```
 例子的URL运行后跳转到的URL为‘http://localhost/$location/21.1%20$location.html#/foo2/foo3/?name=bunny#myhash’
 
 
