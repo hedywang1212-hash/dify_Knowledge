@@ -5,7 +5,7 @@
 ```javascript
 getMessage("UI Message Key", function(msg) {
     g_form.showFieldMsg('field',msg, "error"); //在执行onChange Client script的时候
-g_form.addErrorMessage(msg); //在执行onSubmit Client script的时候
+    g_form.addErrorMessage(msg); //在执行onSubmit Client script的时候
 });
 ```
 
