@@ -3,14 +3,16 @@
 可以通过以下方法进行调用
 
 ```javascript
- getMessage("UI Message Key", function(msg) {
-                g_form.showFieldMsg('field',msg, "error"); //在执行onChange Client script的时候
+getMessage("UI Message Key", function(msg) {
+    g_form.showFieldMsg('field',msg, "error"); //在执行onChange Client script的时候
 g_form.addErrorMessage(msg); //在执行onSubmit Client script的时候
-            });
+});
 ```
 
 但调用的UI Message需要参数时，可以通过以下方法进行调用
 
 ```javascript
-getMessage("The number is exceeds the  {0} stock count({1})!", function(msg) { g_form.showFieldMsg('individual',msg.withValues([参数1,参数2]), "error");} );
+getMessage("The number is exceeds the  {0} stock count({1})!", function(msg) { 
+    g_form.showFieldMsg('individual',msg.withValues([参数1,参数2]), "error");
+} );
 ```
