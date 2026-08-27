@@ -1,11 +1,7 @@
 1、创建一个Ui Script（字段UI Type和Global分别需要是Desktop和true）
-
 ![创建一个Ui Script](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/021_01.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/021_01.png
-
 图片说明：该图对应原文内容：1、创建一个Ui Script（字段UI Type和Global分别需要是Desktop和true）
-
 
 2、将以下UI script代码复制到Script中，保存。
 
@@ -231,11 +227,8 @@ shortcut = {
 
 
 3、创建一个Client Script（注意UI Type要为All，且Isolate script为false）
-
 ![创建一个Client Script](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/021_02.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/021_02.png
-
 图片说明：该图对应原文内容：3、创建一个Client Script（注意UI Type要为All，且Isolate script为false）
 
 4、将以下Client Script代码粘贴到Script中。

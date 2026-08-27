@@ -49,12 +49,10 @@ UI Action：在UI Action中进行页面重定向：
 //action.setRedirectURL('https://www.google.com');
 //gs.setRedirect('https://www.google.com');
 以上两种方法都可行，
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_01.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_01.png
-
 图片说明：该图对应原文内容：以上两种方法都可行，
+
 创建了这种UI Action后，当触发UI Action时，页面自动跳转到指定的URL。
 
 
@@ -67,28 +65,20 @@ UI Page: 在UI Page中进行页面重定向：
 response.sendRedirect("<url>");
 ```
 可以使用上面的方法在UI Page中的Processing script中进行页面的重定向
-
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_02.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_02.png
-
 图片说明：该图对应原文内容：可以使用上面的方法在UI Page中的Processing script中进行页面的重定向
+
 在这个例子中，如果我点击了Accept按钮页面就会跳转
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_03.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_03.png
-
 图片说明：该图对应原文内容：在这个例子中，如果我点击了Accept按钮页面就会跳转
+
 ==========⇒
-
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_04.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_04.png
-
 图片说明：该图对应原文内容：==========⇒
+
 Widget：在Widget中进行页面重定向：
 
 只能在Client Script中运用
@@ -107,18 +97,14 @@ top.window.location = <url>;
 例：
 
 1、创建一个按钮，并设置点击事件
-
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_05.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_05.png
-
 图片说明：该图对应原文内容：1、创建一个按钮，并设置点击事件
+
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_06.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_06.png
-
 图片说明：该图对应原文内容：2、点击对应按钮后页面跳转
+
 2、点击对应按钮后页面跳转
 
 
@@ -193,26 +179,16 @@ $location.search('bunnybaobao');// 直接用这个字符串替换整个url的参
 
 $location方法使用示例
 在widget中创建一个测试按钮
-
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_07.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_07.png
-
 图片说明：该图对应原文内容：在widget中创建一个测试按钮
+
 在页面上点击测试按钮
-
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_08.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_08.png
-
 图片说明：该图对应原文内容：在页面上点击测试按钮
+
 页面跳转到指定的sys_id画面
-
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_09.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/035_09.png
-
 图片说明：该图对应原文内容：页面跳转到指定的sys_id画面

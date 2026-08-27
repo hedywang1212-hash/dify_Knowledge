@@ -4,24 +4,18 @@
 例：在client script中将用户设置为 Fred Luddy，然后调用script include以获取他们的经理。
 
 client script中代码如下：
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/039_01.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/039_01.png
-
 图片说明：该图对应原文内容：client script中代码如下：
+
 script include中代码如下:
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/039_02.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/039_02.png
-
 图片说明：该图对应原文内容：script include中代码如下:
+
 运行结果如下：
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/039_03.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/039_03.png
-
 图片说明：该图对应原文内容：运行结果如下：
+
 注意：getXMLWait()也不能再scope application中使用。

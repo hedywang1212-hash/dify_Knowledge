@@ -3,9 +3,6 @@
 
 
 清除后显示如下：
-
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/037_01.png)
-
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/037_01.png
-
 图片说明：该图对应原文内容：清除后显示如下：
