@@ -1,0 +1,6 @@
+在Macros表中确认csm_code_generator 的Active是为true
+然后进入Account表中打开要设置Registration Code的账户
+进入该账户的Registration Code的Dictionary页面
+在它的Attributes中添加【ref_contributions=sn_customerservice_csm_code_generator】语句
+然后就可以看到账户页面中的Registration Code栏边上多了一个小图标
+点击该图标就可以生成唯一的Registration Code

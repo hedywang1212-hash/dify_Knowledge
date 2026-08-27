@@ -1,0 +1,1 @@
+当需要对filed的reference中的选项进行排序时，可以在Reference qualifier中用'ref_ac_order_by='field名代码进行设定，如果因某些状况不能在Reference qualifier写代码，或者filed的类型不为reference时，也可以将代码写在Variable attributes中

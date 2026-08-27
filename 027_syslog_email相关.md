@@ -1,0 +1,1 @@
+syslog_email.list⾥有各个notification的调⽤情况

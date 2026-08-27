@@ -1,0 +1,1 @@
+在引用record producer或者catalog item的表中是无法直接获取它们的variable值，需要通过[表中的record].variable.variable名或者[表中的record].variable[variable名]来进行获取。

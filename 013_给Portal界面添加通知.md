@@ -1,0 +1,1 @@
+利用Announcement功能可以指定任意portal界面为用户发送通知，而且可以指定任意发送时间范围，用户，是否只发送一次等设定。不过要设定用户的话，首先要安装【com.glide.service-portal.user-criteria】插件，并在System Properties中将【glide.service_portal.user_criteria_enabled】的值设为true。
