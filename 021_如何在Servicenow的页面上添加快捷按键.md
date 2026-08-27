@@ -21,9 +21,9 @@
 代码中的：
 
 ```javascript
-shortcut.add("Ctrl+S",function() {  
-    gsftSubmit(document.getElementById('sysverb_update_and_stay'));  
-});   
+shortcut.add("Ctrl+S",function() {
+    gsftSubmit(document.getElementById('sysverb_update_and_stay'));
+});
 ```
 其中，第一个参数"Ctrl+S"为组合键，可以自己定义，如“Shift+Ctrl+F”。
 

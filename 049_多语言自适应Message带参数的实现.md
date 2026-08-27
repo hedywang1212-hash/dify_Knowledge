@@ -30,7 +30,7 @@ gs.addInfoMessage(msg);
 ②使用客户端函数的例子
 ```javascript
 getMessage("Good Morning, {0}!", function(msg) {
-	g_form.addInfoMessage(msg.withValues([g_user.getFullName()])); 
- } );
+    g_form.addInfoMessage(msg.withValues([g_user.getFullName()]));
+} );
 // Good Morning, Fred Luddy!
 ```

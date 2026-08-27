@@ -65,17 +65,17 @@ top.location.href;
 
 ```javascript
 function getCurrentURI() {
-var exg = /^(\/[^\?]+\?id=)/gm;
-var requestURI = gs.action.getGlideURI().get("request_uri");//这里取到的是object类型
-requestURI = String(requestURI);//转化成string
-if(requestURI == null){
-requestURI = decodeURIComponent(gs.action.getGlideURI());
-requestURI = String(requestURI);
-exg=/^api\/now\/sp\/widget\/[0-9a-z]{32}\?api=api&id=/g;
-}
-var subst = '';
-var result = requestURI.replace(exg, subst);
-return result;
+    var exg = /^(\/[^\?]+\?id=)/gm;
+    var requestURI = gs.action.getGlideURI().get("request_uri");//这里取到的是object类型
+    requestURI = String(requestURI);//转化成string
+    if(requestURI == null){
+        requestURI = decodeURIComponent(gs.action.getGlideURI());
+        requestURI = String(requestURI);
+        exg=/^api\/now\/sp\/widget\/[0-9a-z]{32}\?api=api&id=/g;
+    }
+    var subst = '';
+    var result = requestURI.replace(exg, subst);
+    return result;
 }
 ```
 

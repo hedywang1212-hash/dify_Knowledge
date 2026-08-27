@@ -12,7 +12,7 @@ getMessage("UI Message Key", function(msg) {
 但调用的UI Message需要参数时，可以通过以下方法进行调用
 
 ```javascript
-getMessage("The number is exceeds the  {0} stock count({1})!", function(msg) { 
+getMessage("The number is exceeds the  {0} stock count({1})!", function(msg) {
     g_form.showFieldMsg('individual',msg.withValues([参数1,参数2]), "error");
 } );
 ```

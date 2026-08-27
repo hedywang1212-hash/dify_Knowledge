@@ -6,11 +6,11 @@
 var isChoiceTable = tableGR.getElement(data.selectedKey).getED().isChoiceTable();
 var fieldChoices = tableGR.getElement(data.selectedKey).getChoices();
 if(isChoiceTable){
-//choice list
-var fieldChoices = tableGR.getElement(data.selectedKey).getChoices();
-var cl = new ChoiceList(data.table, data.selectedKey);
-gs.addInfoMessage(cl.getLabel(fieldChoices.get(0))); //label
-gs.addInfoMessage(fieldChoices.get(0)); //value
+    //choice list
+    var fieldChoices = tableGR.getElement(data.selectedKey).getChoices();
+    var cl = new ChoiceList(data.table, data.selectedKey);
+    gs.addInfoMessage(cl.getLabel(fieldChoices.get(0))); //label
+    gs.addInfoMessage(fieldChoices.get(0)); //value
 }
 ```
 
