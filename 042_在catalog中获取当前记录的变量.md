@@ -1,1 +1,1 @@
-需要使用current.variables.daily_duration（在workflow和reference中常用） 
+需要使用current.variables.daily_duration（在workflow和reference中常用）

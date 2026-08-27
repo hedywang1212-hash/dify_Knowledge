@@ -9,16 +9,23 @@
 
 例①直接在URL中使用：在新建incident的页面的URL中添加"sysparm_stack=sys_script_list.do"，则提交之后，页面跳转至business rule的list页面。
 
-​![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/032_01.png)
+![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/032_01.png)
 
+图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/032_01.png
 
-
+图片说明：该图对应原文内容：例①直接在URL中使用：在新建incident的页面的URL中添加"sysparm_stack=sys_script_list.do"，则提交之后，页面跳转至business rule的list页面。
 提交后跳转的页面
 
 
-​![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/032_02.png)
+![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/032_02.png)
 
+图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/032_02.png
 
+图片说明：该图对应原文内容：提交后跳转的页面
 例②用于【Edit Module】：如下图在menu中点击【Edit Module】，【Arguments】中显示"sysparm_stack=incident_list.do"。则提交incident之后，页面跳转至incident这张表。
 
-​![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/032_033.png)
+![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/032_033.png)
+
+图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/032_033.png
+
+图片说明：该图对应原文内容：例②用于【Edit Module】：如下图在menu中点击【Edit Module】，【Arguments】中显示"sysparm_stack=incident_list.do"。则提交incident之后，页面跳转至incident这张表。

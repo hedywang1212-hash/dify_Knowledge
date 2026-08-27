@@ -7,4 +7,3 @@
 > Business Rule中调用current.deleteMultiple()会删除表的所有数据！！
 
 ## 3. 创建表和字段前需要严格确认物理名称没有错误，创建完成后不可随意更改。
-

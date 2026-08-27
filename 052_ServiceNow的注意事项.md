@@ -19,8 +19,11 @@
 #### 如何查看当前使用的ServiceNow版本号
  在搜索栏输入stats.do
  可以看到返回的数据，找到【Build tag】，可以看到当前的版本类型以及补丁版本
- ![](http://139.224.210.26:82/pro/file-read-5125.html)
- 
+![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/file-read-5125.html)
+
+图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/file-read-5125.html
+
+图片说明：该图对应原文内容：可以看到返回的数据，找到【Build tag】，可以看到当前的版本类型以及补丁版本
 &nbsp;
 &nbsp;
 &nbsp;
@@ -28,8 +31,11 @@
 #### 如何查看当前的Application和Update Set
 点击画面右上角⚙齿轮图标，打开System Setting
 Developer中，启用“Show application picker in header” 和 “Show update set picker in header”
-<img src="http://139.224.210.26:82/pro/file-read-5137.html" style="zoom:50%;" />
- 
+![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/file-read-5137.html)
+
+图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/file-read-5137.html
+
+图片说明：该图对应原文内容：Developer中，启用“Show application picker in header” 和 “Show update set picker in header”
 &nbsp;
 &nbsp;
 &nbsp;
@@ -104,5 +110,3 @@ https://dev115900.service-now.com/sp
 官方相关文档：https://docs.servicenow.com/bundle/orlando-servicenow-platform/page/build/service-portal/concept/announcements-widget.html
 
 1、新建Announcement
-
-
