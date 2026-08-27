@@ -237,6 +237,7 @@ shortcut = {
 图片地址：https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/021_02.png
 
 图片说明：该图对应原文内容：3、创建一个Client Script（注意UI Type要为All，且Isolate script为false）
+
 4、将以下Client Script代码粘贴到Script中。
 
 代码中的：
