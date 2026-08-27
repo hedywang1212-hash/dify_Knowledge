@@ -2,6 +2,7 @@ workflow中有一个很实用的功能就是可以通过workflow.scratchpad.xxx=
 
 在workflow外部，也可以通过以下方法进行获取和修改（只能在服务端调用，Client Sript端无法调用）
 
+```javascript
   var workflow = new Workflow();
         var context = workflow.getContexts(current); //current为当前执行该workflow的record
          var Item= "";
@@ -12,3 +13,4 @@ context.scratchpad.Item="1";
 context.update();
 
          }
+```

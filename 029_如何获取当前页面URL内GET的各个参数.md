@@ -1,13 +1,17 @@
 
 方法一：服务器端使用以下代码
+```javascript
 gs.action.getGlideURI().getMap().get('sysparm_id')
+```
 
 
 Scope下直接使用
 
 
 
+```javascript
 gs.action.getGlideURI().get('sysparm_id')
+```
 
 
 例：在Business Rule中编写代码，获取URL中的sys_id
@@ -59,6 +63,7 @@ top.location.href;
 补充：在widget的服务器端通过方法一获取URL后，可以通过以下代码修改正则表达式来获取URL中的所需参数。
 
 
+```javascript
 function getCurrentURI() {
 var exg = /^(\/[^\?]+\?id=)/gm;
 var requestURI = gs.action.getGlideURI().get("request_uri");//这里取到的是object类型
@@ -72,6 +77,7 @@ var subst = '';
 var result = requestURI.replace(exg, subst);
 return result;
 }
+```
 
 ![](https://raw.githubusercontent.com/hedywang1212-hash/dify_Knowledge/main/images/029_06.png)
 

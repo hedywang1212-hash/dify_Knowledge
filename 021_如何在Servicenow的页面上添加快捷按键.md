@@ -20,9 +20,11 @@
 
 代码中的：
 
+```javascript
 shortcut.add("Ctrl+S",function() {  
     gsftSubmit(document.getElementById('sysverb_update_and_stay'));  
 });   
+```
 其中，第一个参数"Ctrl+S"为组合键，可以自己定义，如“Shift+Ctrl+F”。
 
 第二个参数是当检测到点击了组合键之后将会运行的操作。此处的“document.getElementById('sysverb_update_and_stay')”的意思是查找当前页面上Id名为“sysverb_update_and_stay”的按钮，并执行该按钮操作。
