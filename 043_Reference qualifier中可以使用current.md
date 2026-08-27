@@ -1,4 +1,4 @@
-一、Reference qualifier中的javascript为服务器端代码，可以使用current。
+# 一、Reference qualifier中的javascript为服务器端代码，可以使用current。
 ​
 
 例：
